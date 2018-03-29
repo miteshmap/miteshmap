@@ -17,11 +17,12 @@ robots.txt
 /README.txt
 
 # Ignore contrib modules. These should be created during build process.
-/modules/contrib
-/themes/contrib
-/profiles/contrib
-/libraries
-/drush/contrib
+core
+modules/contrib
+themes/contrib
+profiles/contrib
+libraries
+drush/contrib
 
 #Composer vendor
 vendor/
