@@ -7,9 +7,7 @@
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/admin_toolbar": "^1.23",
-        "drupal/d8_blog_theme": "^1.1"
-    },
-    "replace": {
+        "drupal/d8_blog_theme": "^1.1",
         "drupal/core": "^8.5"
     },
     "minimum-stability": "dev",
