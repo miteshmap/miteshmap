@@ -1,0 +1,22 @@
+uuid: c9b7a924-d693-4ec3-b499-04a53c19291b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - classic_blog
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: classic_blog_powered
+theme: classic_blog
+region: footer_fifth
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
