@@ -1,4 +1,4 @@
-uuid: 6c3ebf69-802d-4138-9666-e93a626de87f
+uuid: 802fa68d-a1ce-4a86-9249-f85124d87eb8
 langcode: en
 status: true
 dependencies:
@@ -7,20 +7,20 @@ dependencies:
   module:
     - system
   theme:
-    - classic_blog
+    - tweme
 _core:
-  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: classic_blog_footer
-theme: classic_blog
-region: footer_fifth
+  default_config_hash: gSXk78cnM-83KtFwwu-XUHaMOQUh34bzRKMFDjkBhz8
+id: tweme_footer
+theme: tweme
+region: footer
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: Links
   provider: system
-  label_display: '0'
+  label_display: visible
   level: 1
   depth: 0
 visibility: {  }

@@ -1,15 +1,15 @@
-uuid: c7bb96d9-b47d-46e5-930f-6fc7c0389e8f
+uuid: 21dd2dbf-8431-479a-887a-b46c47cac4e1
 langcode: en
 status: true
 dependencies:
   theme:
-    - classic_blog
+    - tweme
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: classic_blog_local_actions
-theme: classic_blog
+  default_config_hash: OzNhoYoZuiBam3XD6NporEoEN-OBuBBIbW-zBA6K8Y4
+id: tweme_local_actions
+theme: tweme
 region: content
-weight: -6
+weight: 1
 provider: null
 plugin: local_actions_block
 settings:

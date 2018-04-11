@@ -1,15 +1,15 @@
-uuid: 1bdb13b7-5813-4319-92b1-71004a762fdd
+uuid: 0297e0e2-f285-4ac7-9c52-87a4113ed1de
 langcode: en
 status: true
 dependencies:
   theme:
-    - classic_blog
+    - tweme
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: classic_blog_page_title
-theme: classic_blog
+  default_config_hash: xpk0ZEu8yr-6Ex5oFv9rZcpgZgn4LOkSI1T0_kCp7OY
+id: tweme_page_title
+theme: tweme
 region: content
-weight: -6
+weight: 0
 provider: null
 plugin: page_title_block
 settings:

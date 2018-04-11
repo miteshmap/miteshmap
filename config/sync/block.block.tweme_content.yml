@@ -1,17 +1,17 @@
-uuid: 70fa292d-cf94-4217-b125-9d96e736c31d
+uuid: f858ae00-2403-417d-b1f5-e3dc2fabe79a
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - classic_blog
+    - tweme
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: classic_blog_content
-theme: classic_blog
+  default_config_hash: zCj1Ss_aJsjrJFZQ_-E9k7TNdToG6QHwkvol0pCFBQ4
+id: tweme_content
+theme: tweme
 region: content
-weight: 0
+weight: 3
 provider: null
 plugin: system_main_block
 settings:

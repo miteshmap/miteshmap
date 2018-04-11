@@ -1,16 +1,16 @@
-uuid: 4c1c95a2-ced2-4b7e-aa8e-ae3e83ba6615
+uuid: 7e04443e-8490-4a99-8e89-6cc14e3faf64
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - classic_blog
+    - tweme
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: classic_blog_branding
-theme: classic_blog
-region: header
+  default_config_hash: BeDXKhpf2g0-V61_7tORo4R-9I2qZorxFcT35qqYUx8
+id: tweme_branding
+theme: tweme
+region: primary_menu
 weight: 0
 provider: null
 plugin: system_branding_block
@@ -21,5 +21,5 @@ settings:
   label_display: '0'
   use_site_logo: false
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }

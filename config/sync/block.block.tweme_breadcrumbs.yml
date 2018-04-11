@@ -1,15 +1,15 @@
-uuid: ccf9a8bf-6c06-497c-bd78-9ab2d0564ba0
+uuid: bcbf6208-0b5f-4538-898d-18c4245c7800
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - classic_blog
+    - tweme
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: classic_blog_breadcrumbs
-theme: classic_blog
+  default_config_hash: JwJpLb_lG3ctS7DkS9XTE0PTu3twOklTrzwzClYerfs
+id: tweme_breadcrumbs
+theme: tweme
 region: breadcrumb
 weight: 0
 provider: null
