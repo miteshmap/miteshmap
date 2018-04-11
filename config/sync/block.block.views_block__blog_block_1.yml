@@ -1,0 +1,26 @@
+uuid: 08431bba-9a8c-460a-a69f-ec529c118c94
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - views
+  theme:
+    - tweme
+id: views_block__blog_block_1
+theme: tweme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:blog-block_1'
+settings:
+  id: 'views_block:blog-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping:
+    nid: '@node.node_route_context:node'
+visibility: {  }

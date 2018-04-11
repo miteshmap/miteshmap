@@ -1,0 +1,23 @@
+uuid: 24ae2370-6b4f-4f58-aa69-870ded09fb0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_link
+    - node.type.article
+  module:
+    - link
+id: node.article.field_code_link
+field_name: field_code_link
+entity_type: node
+bundle: article
+label: 'Code Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link
