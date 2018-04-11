@@ -9,7 +9,8 @@
         "drupal/admin_toolbar": "^1.23",
         "drupal/tweme": "^4.1",
         "drupal/core": "^8.5",
-        "drupal/codesnippet": "^1.6"
+        "drupal/codesnippet": "^1.6",
+        "drupal/pathauto": "^1.1"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
