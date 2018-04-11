@@ -8,6 +8,7 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/admin_toolbar": "^1.23",
         "drupal/d8_blog_theme": "^1.1",
+        "drupal/tweme": "^4.1",
         "drupal/core": "^8.5"
     },
     "minimum-stability": "dev",
