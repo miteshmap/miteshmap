@@ -14,7 +14,8 @@
         "drupal/metatag": "^1.5",
         "drupal/bootstrap": "^3.11",
         "drupal/devel": "^1.2",
-        "symfony/var-dumper": "^4.0"
+        "symfony/var-dumper": "^4.0",
+        "drupal/recaptcha": "^2.3"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
