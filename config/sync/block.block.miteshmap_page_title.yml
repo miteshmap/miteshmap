@@ -1,14 +1,14 @@
-uuid: 0297e0e2-f285-4ac7-9c52-87a4113ed1de
+uuid: fb3b9d65-102f-44da-835f-958c19503f46
 langcode: en
 status: true
 dependencies:
   theme:
-    - tweme
+    - miteshmap
 _core:
-  default_config_hash: xpk0ZEu8yr-6Ex5oFv9rZcpgZgn4LOkSI1T0_kCp7OY
-id: tweme_page_title
-theme: tweme
-region: content
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: miteshmap_page_title
+theme: miteshmap
+region: header
 weight: 0
 provider: null
 plugin: page_title_block

@@ -1,0 +1,22 @@
+uuid: 5ca70434-cb39-4800-872d-4c272399a08f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - miteshmap
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: miteshmap_local_tasks
+theme: miteshmap
+region: header
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

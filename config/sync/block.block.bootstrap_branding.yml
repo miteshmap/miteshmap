@@ -1,16 +1,16 @@
-uuid: 7e04443e-8490-4a99-8e89-6cc14e3faf64
+uuid: 3acc0cd7-084c-4a16-bb10-c072de62ae58
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - tweme
+    - bootstrap
 _core:
-  default_config_hash: BeDXKhpf2g0-V61_7tORo4R-9I2qZorxFcT35qqYUx8
-id: tweme_branding
-theme: tweme
-region: primary_menu
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: bootstrap_branding
+theme: bootstrap
+region: navigation
 weight: 0
 provider: null
 plugin: system_branding_block

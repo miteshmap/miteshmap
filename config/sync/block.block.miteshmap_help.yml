@@ -1,0 +1,22 @@
+uuid: e300384f-df03-444e-bce3-e94cd249893b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - miteshmap
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: miteshmap_help
+theme: miteshmap
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

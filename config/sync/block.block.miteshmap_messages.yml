@@ -1,17 +1,17 @@
-uuid: 6e308b9f-226c-4acb-8151-bf5a2ca58255
+uuid: d96ca179-2579-4018-9968-57dd01369eab
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - tweme
+    - miteshmap
 _core:
-  default_config_hash: IzLqEtV7YCO-ZAnrrwnG3gJMpHG4g2Pkxb-MsxlFa0Y
-id: tweme_messages
-theme: tweme
-region: highlighted
-weight: 0
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: miteshmap_messages
+theme: miteshmap
+region: header
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,0 +1,22 @@
+uuid: ed463995-fe1c-4c2e-9243-da2a872f0745
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - miteshmap
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: miteshmap_content
+theme: miteshmap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

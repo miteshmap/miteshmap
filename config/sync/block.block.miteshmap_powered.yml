@@ -1,17 +1,17 @@
-uuid: b5749c99-5baa-4c53-9451-02c10d460f10
+uuid: fefe1f13-e6fa-431f-9994-3f83f9fa4e42
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - tweme
+    - miteshmap
 _core:
-  default_config_hash: LWKnQq5L4TCNom1SAfRU-tKMLDUV1Bl6wPeulQlfBUs
-id: tweme_powered
-theme: tweme
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: miteshmap_powered
+theme: miteshmap
 region: footer
-weight: 3
+weight: -6
 provider: null
 plugin: system_powered_by_block
 settings:
