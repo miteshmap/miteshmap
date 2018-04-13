@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "178bc62b609ea73c5904afbdd0a82c16",
+    "content-hash": "aa6ee81de9ae29906ff1d5fd8385ac75",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1305,6 +1305,160 @@
             }
         },
         {
+            "name": "drupal/field_delimiter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/field_delimiter",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_delimiter-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "3b68f7ab472797f44b0bd47d57bd86c095f242eb"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1511553785",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "andrewmacpherson",
+                    "homepage": "https://www.drupal.org/user/265648"
+                },
+                {
+                    "name": "purushotam.rai",
+                    "homepage": "https://www.drupal.org/user/3193859"
+                }
+            ],
+            "description": "Provides extra field formatter settings to specify delimiters for multi-value fields.",
+            "homepage": "https://www.drupal.org/project/field_delimiter",
+            "support": {
+                "source": "http://cgit.drupalcode.org/field_delimiter"
+            }
+        },
+        {
+            "name": "drupal/google_analytics",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/google_analytics",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "15cd0642ad99f3776a46b702e5012713405a0733"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/php": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1506372845",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hass",
+                    "homepage": "https://www.drupal.org/u/hass"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/49388/committers"
+                }
+            ],
+            "description": "Allows your site to be tracked by Google Analytics by adding a Javascript tracking code to every page.",
+            "homepage": "https://www.drupal.org/project/google_analytics",
+            "support": {
+                "source": "http://git.drupal.org/project/google_analytics.git",
+                "issues": "https://www.drupal.org/project/issues/google_analytics"
+            }
+        },
+        {
+            "name": "drupal/google_tag",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/google_tag",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_tag-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "eaaa2dd1bc1d74a31dc2087d9390096e11d12ee5"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1514945587",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "solotandem",
+                    "homepage": "https://www.drupal.org/user/240748"
+                }
+            ],
+            "description": "Allows your website analytics to be managed using Google Tag Manager.",
+            "homepage": "https://www.drupal.org/project/google_tag",
+            "support": {
+                "source": "http://cgit.drupalcode.org/google_tag"
+            }
+        },
+        {
             "name": "drupal/metatag",
             "version": "1.5.0",
             "source": {
@@ -1560,53 +1714,6 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "http://cgit.drupalcode.org/token"
-            }
-        },
-        {
-            "name": "drupal/tweme",
-            "version": "4.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/tweme",
-                "reference": "8.x-4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tweme-8.x-4.1.zip",
-                "reference": "8.x-4.1",
-                "shasum": "d40a88e807befe9472363e8a381b4c5f32884364"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-4.x": "4.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-4.1",
-                    "datestamp": "1489922912",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "tonystar",
-                    "homepage": "https://www.drupal.org/user/787240"
-                }
-            ],
-            "description": "Ultra lightweight Bootstrap theme.",
-            "homepage": "https://www.drupal.org/project/tweme",
-            "support": {
-                "source": "http://cgit.drupalcode.org/tweme"
             }
         },
         {

@@ -7,7 +7,6 @@
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/admin_toolbar": "^1.23",
-        "drupal/tweme": "^4.1",
         "drupal/core": "^8.5",
         "drupal/codesnippet": "^1.6",
         "drupal/pathauto": "^1.1",
@@ -15,7 +14,10 @@
         "drupal/bootstrap": "^3.11",
         "drupal/devel": "^1.2",
         "symfony/var-dumper": "^4.0",
-        "drupal/recaptcha": "^2.3"
+        "drupal/recaptcha": "^2.3",
+        "drupal/field_delimiter": "^1.0",
+        "drupal/google_analytics": "^2.2",
+        "drupal/google_tag": "^1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
