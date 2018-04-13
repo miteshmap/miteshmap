@@ -1,0 +1,12 @@
+body {
+  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+article .field--name-field-tags .field--items > .field--item {
+  display: inline;
+}
+
+.region-sidebar-first {
+  word-wrap: break-word;
+}
