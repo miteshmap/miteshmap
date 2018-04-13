@@ -13,6 +13,7 @@ dependencies:
     - image.style.medium
     - node.type.article
   module:
+    - field_delimiter
     - image
     - text
     - user
@@ -46,8 +47,10 @@ content:
     region: content
     settings:
       link: true
-    third_party_settings: {  }
-    label: above
+    third_party_settings:
+      field_delimiter:
+        delimiter: ','
+    label: inline
   links:
     weight: 100
     region: content

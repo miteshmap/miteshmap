@@ -15,5 +15,16 @@ logo:
   path: 'public://profile-pic.jpg'
   url: ''
   use_default: 0
-cdn_jsdelivr_theme: flatly
+cdn_jsdelivr_theme: united
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: well
+  sidebar_second: ''
+  footer: ''
+breadcrumb_home: 1
 table: ''
