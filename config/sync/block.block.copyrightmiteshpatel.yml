@@ -1,0 +1,25 @@
+uuid: 2c058557-2516-4039-a245-a79a52d41073
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:12d78641-21c9-40f8-8e3c-309018118199'
+  module:
+    - block_content
+  theme:
+    - miteshmap
+id: copyrightmiteshpatel
+theme: miteshmap
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:12d78641-21c9-40f8-8e3c-309018118199'
+settings:
+  id: 'block_content:12d78641-21c9-40f8-8e3c-309018118199'
+  label: 'copyright Mitesh Patel'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
