@@ -10,3 +10,24 @@ article .field--name-field-tags .field--items > .field--item {
 .region-sidebar-first {
   word-wrap: break-word;
 }
+
+.social-media-connect-links {
+  padding: 0px;
+}
+
+.social-media-connect-links li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-media-connect-links li a {
+  color: #333;
+}
+
+.social-media-connect-links li a:hover {
+  color: #e95420;
+}
+
+.social-media-connect-links li a > i{
+  font-size: 36px;
+}
