@@ -23,6 +23,7 @@ module:
   field_delimiter: 0
   field_ui: 0
   file: 0
+  file_entity: 0
   filter: 0
   google_analytics: 0
   hal: 0
@@ -45,6 +46,7 @@ module:
   recaptcha: 0
   responsive_image: 0
   rest: 0
+  robotstxt: 0
   search: 0
   serialization: 0
   shortcut: 0
