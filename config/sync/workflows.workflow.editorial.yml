@@ -2,6 +2,8 @@ uuid: d8461764-081c-40b1-9ce6-261d00006fe5
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.article
   module:
     - content_moderation
 _core:
@@ -59,4 +61,6 @@ type_settings:
       from:
         - draft
         - published
-  entity_types: {  }
+  entity_types:
+    node:
+      - article
