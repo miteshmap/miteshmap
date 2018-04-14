@@ -1,0 +1,25 @@
+uuid: e0d895e8-5811-4216-9979-a305ed74f4d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fee9b283-f6ae-47ac-ac0b-61b780633fa6'
+  module:
+    - block_content
+  theme:
+    - miteshmap
+id: connect
+theme: miteshmap
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:fee9b283-f6ae-47ac-ac0b-61b780633fa6'
+settings:
+  id: 'block_content:fee9b283-f6ae-47ac-ac0b-61b780633fa6'
+  label: Connect
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
