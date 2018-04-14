@@ -12,3 +12,17 @@ function miteshmap_preprocess_block(&$variables) {
       break;
   }
 }
+
+/**
+ * Implements hook_preprocess_region().
+ */
+function miteshmap_preprocess_region(&$variables) {
+  $region = $variables['elements']['#region'];
+  $variables['region']  = $region;
+  $variables['content'] = $variables['elements']['#children'];
+
+  // Help region.
+  if ($region === 'footer' && !empty($variables['content'])) {
+    $variables['attributes']['class'][] = 'text-center';
+  }
+}
