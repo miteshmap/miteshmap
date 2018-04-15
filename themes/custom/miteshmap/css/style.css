@@ -12,22 +12,30 @@ a {
   border-color: #0181eb;
 }
 
-.navbar-default .navbar-collapse
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-collapse,
 .navbar-default .navbar-form,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border-color: #0F53EB;
+}
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {{
+.navbar-default .navbar-nav>li>a:focus {
   background-color: #0F53EB;
 }
 
 a:hover,
-a:focus {
+a:focus,
+.social-media-connect-links li a:hover {
   color: #0F53EB;
+}
+
+.social-media-connect-links li a {
+  color: #333333;
 }
 
 .btn-primary {
@@ -41,14 +49,6 @@ a:focus {
 .open>.dropdown-toggle.btn-primary {
   background-color: #0F53EB;
   border-color: #0F53EB;
-}
-
-.social-media-connect-links li a {
-  color: #333333;
-}
-
-.social-media-connect-links li a:hover {
-  color: #0F53EB;
 }
 
 .navbar-brand {
