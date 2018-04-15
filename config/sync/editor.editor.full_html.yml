@@ -58,7 +58,11 @@ settings:
           items:
             - ShowBlocks
             - Source
+        -
+          name: code
+          items:
             - CodeSnippet
+            - Code
   plugins:
     stylescombo:
       styles: ''
