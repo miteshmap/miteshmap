@@ -19,6 +19,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
@@ -45,6 +46,13 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+        -
+          name: 'Text Alignment'
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
         -
           name: Tools
           items:
