@@ -7,6 +7,16 @@ _core:
 id: front
 label: 'Front page'
 tags:
+  abstract: 'I''m an open source developer, technology enthusiast. I work at Axelerant as a back-end developer. I have been developing in Drupal since last 8 years. I have worked on theme development and module development in drupal. While not working, I spend time with my family. I enjoy watching movies, swimming, video games and reading blogs.'
+  keywords: 'Mitesh Patel, Drupal, back-end, developer, engineer, javascript'
   canonical_url: '[site:url]'
   shortlink: '[site:url]'
-  title: '[current-page:title] | [site:name]'
+  title: '[site:name]'
+  description: "I'm an open source developer, technology enthusiast.\r\n\r\nI’m a back-end engineer based in Surat, Gujarat, India. I work at Axelerant as a back-end developer.\r\n\r\nI graduated in 2010 with a Bachelor of Engineering degree (B.E.) in Information technology from Saurashtra University, Rajkot. I started as a web designer in a company based in Surat. Working there, I realised, I'm more keen to development then designing and I started to look for development jobs and that's how I started working as a PHP developer, Then I learnt about various CMS like Wordpress, Joomla, Drupal etc..\r\n\r\nI have been developing in Drupal since last 8 years. I have worked on theme development and module development in drupal. While not working, I spend time with my family. I enjoy watching movies, swimming, video games and reading blogs."
+  og_image: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
+  og_image_url: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
+  og_site_name: 'Mitesh Patel'
+  twitter_cards_site: '@miteshmap'
+  twitter_cards_creator: '@miteshmap'
+  twitter_cards_image: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
+  twitter_cards_description: 'Mitesh Patel, Back-end Developer.'
