@@ -21,7 +21,8 @@
         "drupal/xmlsitemap": "^1.0",
         "drupal/simple_sitemap": "^2.12",
         "drupal/file_entity": "^2.0",
-        "drupal/robotstxt": "^1.1"
+        "drupal/robotstxt": "^1.1",
+        "drupal/codetag": "^1.1"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
