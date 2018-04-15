@@ -560,7 +560,24 @@ display:
     display_title: Page
     position: 1
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: '[view:title] | [site:name]'
+            description: 'Blogs by Mitesh Patel on Drupal and other open source developments.'
+            abstract: 'Blogs by Mitesh Patel on Drupal and other open source developments.'
+            keywords: 'Mitesh Patel, Drupal, back-end, developer, engineer, javascript'
+            og_site_name: '[site:name]'
+            og_url: '[view:url]'
+            og_title: 'Blogs by Mitesh Patel on Drupal and other open source developments.'
+            og_description: 'Blogs by Mitesh Patel on Drupal and other open source developments.'
+            og_image: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
+            og_image_url: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
+            twitter_cards_description: 'Blogs by Mitesh Patel on Drupal and other other open source developments'
+            twitter_cards_title: '[view:title] | [site:name]'
+            twitter_cards_creator: '@miteshmap'
+            twitter_cards_page_url: '[view:url]'
+            twitter_cards_image: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
       path: blog
       menu:
         type: normal

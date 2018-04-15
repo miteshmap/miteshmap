@@ -7,6 +7,18 @@ _core:
 id: node
 label: Content
 tags:
+  abstract: '[node:summary]'
+  keywords: '[node:field_tags]'
   canonical_url: '[node:url]'
   title: '[node:title] | [site:name]'
   description: '[node:summary]'
+  og_image: '[node:field_image]'
+  og_description: '[node:summary]'
+  og_title: '[node:title] | [site:name]'
+  og_site_name: '[site:name]'
+  twitter_cards_site: '@miteshmap'
+  twitter_cards_creator: '@miteshmap'
+  twitter_cards_image: '[node:field_image]'
+  twitter_cards_title: '[node:title]'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_page_url: '[node:url]'

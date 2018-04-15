@@ -19,4 +19,6 @@ tags:
   twitter_cards_site: '@miteshmap'
   twitter_cards_creator: '@miteshmap'
   twitter_cards_image: 'http://miteshmap.com/sites/default/files/inline-images/profile-pic-small.jpg'
-  twitter_cards_description: 'Mitesh Patel, Back-end Developer.'
+  twitter_cards_title: '[site:name]'
+  twitter_cards_description: '[site:name], [site:slogan]'
+  twitter_cards_page_url: '[site:url]'
