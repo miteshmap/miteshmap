@@ -65,6 +65,11 @@ article .field--name-field-tags .field--items > .field--item {
   display: inline;
 }
 
+article.full .author,
+article.full .field--name-field-tags {
+  padding: 0 0 10px 0;
+}
+
 .region-sidebar-first {
   word-wrap: break-word;
 }
@@ -88,4 +93,11 @@ article .field--name-field-tags .field--items > .field--item {
 
 .social-media-connect-links li a > i{
   font-size: 36px;
+}
+
+.field--label-inline .field--items,
+.field--label-inline .field--label,
+.field--label-inline >.field--item {
+  display: inline-block;
+  float: none;
 }

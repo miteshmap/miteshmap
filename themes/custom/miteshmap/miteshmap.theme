@@ -1,5 +1,7 @@
 <?php
 
+use Drupal\Core\Url;
+
 /**
  * Prepares variables for `block.html.twig`.
  */
@@ -25,4 +27,15 @@ function miteshmap_preprocess_region(&$variables) {
   if ($region === 'footer' && !empty($variables['content'])) {
     $variables['attributes']['class'][] = 'text-center';
   }
+}
+
+function miteshmap_preprocess_node(&$variables) {
+
+  $link = [
+    '#type' => 'link',
+    '#title' => t('Mitesh Patel'),
+    '#url' => Url::fromUri('internal:/about'),
+  ];
+
+  $variables['author_name'] = \Drupal::service('renderer')->render($link);
 }
