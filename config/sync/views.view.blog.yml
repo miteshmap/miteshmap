@@ -527,6 +527,33 @@ display:
         - 'config:field.storage.node.field_code_link'
         - 'config:field.storage.node.field_references'
         - 'config:field.storage.node.field_tags'
+  blog_feed:
+    display_plugin: feed
+    id: blog_feed
+    display_title: Feed
+    position: 3
+    display_options:
+      display_extenders:
+        metatag_display_extender: {  }
+      row:
+        type: node_rss
+        options:
+          relationship: none
+          view_mode: default
+      path: rss.xml
+      pager:
+        type: some
+        options:
+          items_per_page: 20
+          offset: 0
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
