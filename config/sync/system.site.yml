@@ -5,7 +5,7 @@ slogan: 'Back-end Developer'
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /blog
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
