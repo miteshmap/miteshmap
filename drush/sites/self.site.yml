@@ -1,0 +1,6 @@
+local:
+  uri: 'http://local.miteshmap.com'
+live:
+  host: mitesh.dev
+  root: "/var/www/miteshmap"
+  uri: 'https://mitesh.dev'
