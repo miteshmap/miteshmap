@@ -1,21 +1,55 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout"
+import SEO from "../components/seo/seo"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/blogs/">Go to page 2</Link>
+    <ul>
+      {data.blogs.edges.map(({ node }) => (
+        <li key={node.path.alias}>
+          <Link to={node.path.alias}>{node.title}</Link>
+        </li>
+      ))}
+    </ul>
   </Layout>
 )
+
+export const query = graphql`
+  {
+    blogs: allNodeArticle(limit: 10, filter: {status: {eq: true}, moderation_state: {eq: "published"}}) {
+      totalCount
+      edges {
+        node {
+          id
+          drupal_internal__nid
+          title
+          created(formatString: "DD-MMM-YYYY")
+          path {
+            alias
+          }
+          body {
+            format
+            summary
+            value
+          }
+          relationships {
+            field_tags {
+              path {
+                alias
+              }
+              name
+              id
+              drupal_internal__tid
+              status
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
